@@ -14,7 +14,19 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-shared-lib-demo/cats/cat-pic": ["libs/cats/cat-pic/src/index.ts"],
+      "@nx-shared-lib-demo/core/home": ["libs/core/home/src/index.ts"],
+      "@nx-shared-lib-demo/core/shell": ["libs/core/shell/src/index.ts"],
+      "@nx-shared-lib-demo/dogs/dog-pic": ["libs/dogs/dog-pic/src/index.ts"],
+      "@nx-shared-lib-demo/shared/button": ["libs/shared/button/src/index.ts"],
+      "@nx-shared-lib-demo/shared/cat-service": [
+        "libs/shared/cat-service/src/index.ts"
+      ],
+      "@nx-shared-lib-demo/shared/dog-service": [
+        "libs/shared/dog-service/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
