@@ -5,6 +5,6 @@ import { Injectable } from '@angular/core';
 })
 export class PrivateCatService {
   call() {
-    console.log('private cat service called');
+    console.log('private cat service called hii');
   }
 }
